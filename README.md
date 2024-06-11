@@ -1,6 +1,10 @@
-# System Information Display Script
+# Python System Monitor
 
-This Python script retrieves and displays detailed system information including CPU, memory, and GPU details using `psutil`, `GPUtil`, `colorama`, and `tabulate` libraries.
+Python script to display detailed system information including CPU, memory, and GPU stats using `psutil`, `GPUtil`, `colorama`, and `tabulate` libraries. Provides clear, formatted output in the terminal.
+
+![System Information Screenshot](https://i.imgur.com/nhFXw0I_d.webp?maxwidth=760&fidelity=grand)
+
+![GPU Information Screenshot](https://i.imgur.com/4QAVvoX_d.webp?maxwidth=760&fidelity=grand)
 
 ## Features
 
@@ -9,19 +13,12 @@ This Python script retrieves and displays detailed system information including 
 - **Memory Information:** Provides total memory, available memory, used memory, memory usage percentage, total swap space, free swap space, used swap space, and swap usage percentage.
 - **GPU Information:** Retrieves GPU ID, name, load percentage, free memory, used memory, total memory, and temperature for each GPU installed.
 
-## Libraries Used
-
-- **psutil:** Used to fetch information on system utilization (CPU, memory, disks, network, sensors).
-- **GPUtil:** Provides GPU information such as load, memory utilization, and temperature.
-- **colorama:** For colored terminal text and styles.
-- **tabulate:** Formats the retrieved data into neat tables for better readability in the terminal.
-
 ## Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Pranjol-Dev/python-system-monitor.git
-   cd your-repository
+   cd python-system-monitor
    ```
 
 2. Install dependencies:
